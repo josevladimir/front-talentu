@@ -1,0 +1,17 @@
+header{
+    justify-content: start;
+}
+
+#main-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+}
+#main-wrapper #form-section{
+    height: 100%;
+    overflow-y: scroll;
+}
+#main-wrapper #users-viewer{
+    height: 100%;
+    overflow-y: scroll;
+}
